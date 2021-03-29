@@ -21,24 +21,24 @@ public class HomeWorkApp {
         int b = -50;
         int sum = (a + b);
 
-        if (0 <= sum) {
+        if (sum >= 0) {
             System.out.println("Сумма положительная");
         }
 
-        if (0 > sum) {
+        if (sum < 0) {
             System.out.println("Сумма отрицательная");
         }
     }
 
     //Задание 4
     public static void printColor() {
-        int value = 100;
+        int value = 200;
 
-        if (0 >= value) {
+        if (value <= 0) {
             System.out.println("Красный");
         }
 
-        if (0 < value | value <= 100) {
+        if (value > 0 && value <= 100) {
             System.out.println("Желтый");
         }
 
