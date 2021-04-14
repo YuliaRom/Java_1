@@ -11,7 +11,7 @@ public class HomeWorkApp {
         Bobik.run(600);
         Bobik.run(400);
 
-        Cat Mashka = new Cat("Мурка");
+        Cat Mashka = new Cat("Машка");
         Mashka.run(200);
         Mashka.swim(20);
 
